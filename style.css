@@ -1,0 +1,62 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color:#F4F2EE;
+  width:100vh;
+  height:100vh;
+}
+
+.hero {
+  width:100%;
+  height:100%; 
+  background-color:#F4F2EE;
+  display:flex;
+  gap: 40px;
+}
+
+.side_menu {
+  background-color:#fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:100%;
+  width:35%;
+  border: 0.5px #DDD8D0 solid;
+  gap: 100px;
+}
+
+.side_menu__top {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.side_menu__logo {
+  width:180px;  
+}
+
+.side_menu__logo img {
+  width: 100%;
+}
+
+.sofi {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:7px;
+}
+
+.sofi__circle {
+  width:70px;
+  height:70px;
+  border: 3px #43362E solid;
+  border-radius:100%;
+}
+
+.sofi__circle img {
+  width:100%;
+  height:100%;
+}
