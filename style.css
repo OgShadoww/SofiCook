@@ -99,10 +99,38 @@ body {
   color: #999999;
   font-size:15px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .navbar__item.active {
+  transition: 0.5s;
   background-color: #FEBD2F;
   color: #000;
   border: 1px solid #E0C350;
+}
+
+.header {
+  padding: 20px 0px;
+  display:flex;
+  justify-content:start;
+}
+
+.header__search {
+  width:200px;
+  height:30px;
+}
+
+.header__search__input {
+  width:100%;
+  height:100%;
+  padding: 6px 12px;
+  border: 1px solid #D4C372;
+  border-radius: 8px;
+  color: #8C8C8C;
+  outline:none;
+  font-size:14px;
+}
+
+.main__content {
+  padding: 100px 0px;
 }
